@@ -1,12 +1,11 @@
 * {box-sizing: border-box;
 }
 body {
-    background-image: url(./img/paddlock.jpg);
+    background-image: url(./img/leaves.jpg);
     background-size: cover;
 
 }
-
-p1{
+p{
     color: wheat;
     font-size: large;
     font-style: italic;
@@ -14,11 +13,10 @@ p1{
 }
 
 
-
 /* Add padding to containers*/
 .container {
   
-    padding: 45px; 
+    padding: 70px; 
     align-items: center;
     justify-content: center;
     color: rgb(0, 0, 0);
@@ -60,7 +58,7 @@ hr {
 }
 
 /* set a style for the submit/register button */
-.registerbtn {
+.signinbtn {
     background-color: rgb(90, 19, 84);
     color: white;
     padding: 16px 20px;
@@ -76,22 +74,3 @@ hr {
 .registerbtn:hover {
     opacity: 1;
 }
-
-/* Add color to the links*/
-a {
-    
-    color: blue;
-
-}
-
-/* Set a grey background color and center the text of the sign in section */
-
-.signin {
-    background-color: #f1f1f1;
-    color: black;
-    text-align: center;
-    padding: 3px;
-    margin: auto;
-    border-radius: 50px;
-}
-
